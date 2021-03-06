@@ -1,0 +1,16 @@
+{
+  "name": "javascript_postgres",
+  "version": "1.0.0",
+  "description": "save_json_to_postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "fulltable" : "node fullTable.js",
+    "asyncfulltable" : "node asyncFullTable.js"
+  },
+  "author": "Max Wiedmann",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.5.1"
+  }
+}
